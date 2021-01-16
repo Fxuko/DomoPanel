@@ -1,0 +1,43 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "PlatformIO",
+			"task": "Monitor",
+			"problemMatcher": [
+				"$platformio"
+			],
+			"label": "PlatformIO: Monitor",
+			"group": "build"
+		},
+		{
+			"type": "PlatformIO",
+			"task": "Devices",
+			"problemMatcher": [
+				"$platformio"
+			],
+			"label": "PlatformIO: Devices"
+		},
+		{
+			"type": "PlatformIO",
+			"task": "Monitor (esp32dev)",
+			"problemMatcher": [
+				"$platformio"
+			],
+			"label": "PlatformIO: Monitor (esp32dev)",
+			"group": "build"
+		},
+		{
+			"type": "PlatformIO",
+			"task": "Remote Monitor",
+			"problemMatcher": [
+				"$platformio"
+			],
+			"label": "PlatformIO: Remote Monitor",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
